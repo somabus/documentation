@@ -1,0 +1,43 @@
+/* latin-ext */
+@font-face {
+  font-display: swap;
+  font-family: "MarkPro-Bold";
+  src: url("/fonts/MarkPro-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "MarkPro-BoldItalic";
+  src: url("../fonts/MarkPro-BoldItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "MarkPro-HeavyItalic";
+  src: url("/fonts/MarkPro-HeavyItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "MarkPro-Medium";
+  src: url("/fonts/MarkPro-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "MarkPro-NarrowBold";
+  src: url("../fonts/MarkPro-NarrowBold.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "MarkPro-NarrowBook";
+  src: url("../fonts/MarkPro-NarrowBook.woff2") format("woff2");
+}
+
+.font-family-markproBoldItalic{
+	font-family: "MarkPro-BoldItalic";
+}
+.font-family-narrowBook{
+	font-family: "MarkPro-NarrowBook";
+}
