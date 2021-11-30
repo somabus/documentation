@@ -1,6 +1,43 @@
+
+header{
+	height:48vh;
+	background:#040531;
+}
 h1{
 	font-size:40px;
 }
 .title{
 color:#173361;
+}
+.pointer{
+	cursor:pointer;
+}
+.disable{
+	display:none;
+}
+.hoverClick path#passo-01:hover,.hoverClick path#passo-02:hover, .hoverClick path#passo-03:hover, .hoverClick path#passo-04:hover, .hoverClick path#passo-05:hover {
+	stroke: #040531;
+    stroke-width: 2;
+}
+.links{
+	color:#829494;
+	font-size:12px;
+}
+.dark-blue-color{
+	color:# 173361;
+}
+#logo-barramento{
+	height:100%;
+}
+#dray-soma h1:before{
+	content: "";
+    width: 40px;
+    height: 4px;
+    background: #38cced;
+    border: 0;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
 }
