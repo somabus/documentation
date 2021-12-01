@@ -20,7 +20,7 @@
 @font-face {
   font-display: swap;
   font-family: "MarkPro-Medium";
-  src: url("/fonts/MarkPro-Medium.woff2") format("woff2");
+  src: url("../fonts/MarkPro-Medium.woff2") format("woff2");
 }
 
 @font-face {
@@ -40,4 +40,10 @@
 }
 .font-family-narrowBook{
 	font-family: "MarkPro-NarrowBook";
+}
+.font-family-narrowBold{
+  font-family: "MarkPro-NarrowBold";
+}  
+.font-family-markProMedium{
+	font-family: "MarkPro-Medium";
 }
