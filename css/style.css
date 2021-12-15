@@ -27,7 +27,10 @@ color:#173361;
 	font-size:12px;
 }
 .dark-blue-color{
-	color:# 173361;
+	color:#173361;
+}
+.font-22{
+	font-size:22px;
 }
 #logo-barramento{
 	height:100%;
@@ -43,4 +46,35 @@ color:#173361;
     left: 50%;
     transform: translateX(-50%);
     border-radius: 10px;
+}
+.tab-content{
+	background:#F8F8F8;
+	height:300px;
+}
+.tabs-active{
+	background: #F8F8F8 !important;
+    border: 0 !important;
+    border-top: 3px solid #38CCED !important;
+}
+.tab-disable{
+	background:#E0E4E4 !important;
+}
+.tabs h3{
+	font-size:40px;
+}
+.espacamento{
+	margin-right:3px;
+	margin-left:3px;
+}
+.box{
+	background: #fff;
+    border-radius: 10px;
+	width: 100%;
+	padding:15px;
+	cursor:pointer;
+	border: 2px solid transparent;
+}
+.box:hover{	
+    border-color: #173361;
+    transform: scale(1.05);
 }
