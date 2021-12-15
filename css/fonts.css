@@ -2,7 +2,7 @@
 @font-face {
   font-display: swap;
   font-family: "MarkPro-Bold";
-  src: url("/fonts/MarkPro-Bold.woff2") format("woff2");
+  src: url("../fonts/MarkPro-Bold.woff2") format("woff2");
 }
 
 @font-face {
@@ -46,4 +46,7 @@
 }  
 .font-family-markProMedium{
 	font-family: "MarkPro-Medium";
+}
+.font-family-markProBold700{
+	font-family: "MarkPro-Bold";
 }
