@@ -12,6 +12,12 @@ main{
 .title{
 color:#173361;
 }
+.bg-gray{
+	background:#F8F8F8;
+}
+.padding-15{
+	padding-right:15px;
+}
 .pointer{
 	cursor:pointer;
 }
