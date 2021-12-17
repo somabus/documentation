@@ -1,0 +1,87 @@
+/* Animacao Bolinhas */
+
+@keyframes dot-1 {
+  0%   {transform: translateY(0)}
+  25%  {
+	  transform: translateY(60px)
+	  opacity: #fff;
+  }
+  75%  {transform: translateY(-30px)}
+  100% {transform: translateY(0px)}
+}
+#dot-1 {
+  animation: dot-1 5s linear infinite;
+}
+
+@keyframes dot-2 {
+  0%   {transform: translateX(0)}
+  25%  {transform: translateX(60px)}
+  75%  {transform: translateX(-60px)}
+  100% {transform: translateX(0px)}
+}
+#dot-2 {
+  animation: dot-2 5s linear infinite;
+}
+@keyframes dot-3 {
+  0%   {transform: translateY(0)}
+  25%  {transform: translateY(50px)}
+  75%  {transform: translateY(-30px)}
+  100% {transform: translateY(0px)}
+}
+#dot-3 {
+  animation: dot-3 5s linear infinite;
+}
+@keyframes dot-4 {
+  0%   {transform: translateX(0)}
+  25%  {transform: translateX(60px)}
+  75%  {transform: translateX(-60px)}
+  100% {transform: translateX(0px)}
+}
+#dot-4 {
+  animation: dot-4 5s linear infinite;
+}
+@keyframes dot-5 {
+  0%   {transform: translateX(0)}
+  25%  {transform: translateX(-90px)}
+  75%  {transform: translateX(30px)}
+  100% {transform: translateX(0px)}
+}
+#dot-5 {
+  animation: dot-5 5s linear infinite;
+}
+@keyframes dot-6 {
+  0%   {transform: translateY(0)}
+  25%  {transform: translateY(500px)}
+  75%  {transform: translateY(-60px)}
+  100% {transform: translateY(0px)}
+}
+#dot-6 {
+  animation: dot-6 5s linear infinite;
+}
+@keyframes dot-7 {
+  0%   {transform: translateY(0)}
+  25%  {transform: translateY(200px)}
+  75%  {transform: translateY(-60px)}
+  100% {transform: translateY(0px)}
+}
+#dot-7 {
+  animation: dot-7 5s linear infinite;
+}
+@keyframes dot-8 {
+  0%   {transform: translateY(0)}
+  25%  {transform: translateY(200px)}
+  75%  {transform: translateY(-200px)}
+  100% {transform: translateY(0px)}
+}
+#dot-8 {
+  animation: dot-8 5s linear infinite;
+}
+@keyframes dot-9 {
+  0%   {transform: translateY(0)}
+  25%  {transform: translateY(40px)}
+  75%  {transform: translateY(-200px)}
+  100% {transform: translateY(0px)}
+}
+#dot-9 {
+  animation: dot-9 5s linear infinite;
+}
