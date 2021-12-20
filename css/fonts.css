@@ -50,3 +50,6 @@
 .font-family-markProBold700{
 	font-family: "MarkPro-Bold";
 }
+.MarkPro-BoldArial{
+	font-family: MarkPro-Bold,Arial,sans-serif;
+}
